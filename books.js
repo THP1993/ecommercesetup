@@ -20,6 +20,7 @@ function renderBooks(filter) {
        <div class="book__title">
          ${book.title}
        </div>
+       </div class="book__ratings">
        ${ratingsHTML(book.rating)}
        </div>
       <div class="book__price">
